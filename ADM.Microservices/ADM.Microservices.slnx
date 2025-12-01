@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/gateway/">
+    <Project Path="ADM.ApiGateway/ADM.ApiGateway.csproj" />
+  </Folder>
+  <Folder Name="/services/">
+    <Project Path="AdminConsoleService.API/AdminConsoleService.API.csproj" />
+    <Project Path="AuthService.API/AuthService.API.csproj" />
+    <Project Path="FileStorageService.API/FileStorageService.API.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,6 @@
+@AdminConsoleService.API_HostAddress = http://localhost:5179
+
+GET {{AdminConsoleService.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

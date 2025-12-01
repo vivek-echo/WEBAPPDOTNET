@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\APP1\\ADM.Microservices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0F1C3C-330A-42A5-BFA3-3CFFDC26950C}|AdminConsoleService.API\\AdminConsoleService.API.csproj|d:\\app1\\adm.microservices\\adminconsoleservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0F1C3C-330A-42A5-BFA3-3CFFDC26950C}|AdminConsoleService.API\\AdminConsoleService.API.csproj|solutionrelative:adminconsoleservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8411CE-BB27-4382-BF46-60483BD6A022}|AuthService.API\\AuthService.API.csproj|d:\\app1\\adm.microservices\\authservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8411CE-BB27-4382-BF46-60483BD6A022}|AuthService.API\\AuthService.API.csproj|solutionrelative:authservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378CD3A3-AA4F-4D74-9E97-C96D1254DA93}|FileStorageService.API\\FileStorageService.API.csproj|d:\\app1\\adm.microservices\\filestorageservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{378CD3A3-AA4F-4D74-9E97-C96D1254DA93}|FileStorageService.API\\FileStorageService.API.csproj|solutionrelative:filestorageservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{696BB9D9-EBA6-4E64-AA5E-756F90274DA4}|ADM.ApiGateway\\ADM.ApiGateway.csproj|d:\\app1\\adm.microservices\\adm.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{696BB9D9-EBA6-4E64-AA5E-756F90274DA4}|ADM.ApiGateway\\ADM.ApiGateway.csproj|solutionrelative:adm.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{696BB9D9-EBA6-4E64-AA5E-756F90274DA4}|ADM.ApiGateway\\ADM.ApiGateway.csproj|d:\\app1\\adm.microservices\\adm.apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{696BB9D9-EBA6-4E64-AA5E-756F90274DA4}|ADM.ApiGateway\\ADM.ApiGateway.csproj|solutionrelative:adm.apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{696BB9D9-EBA6-4E64-AA5E-756F90274DA4}|ADM.ApiGateway\\ADM.ApiGateway.csproj|d:\\app1\\adm.microservices\\adm.apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{696BB9D9-EBA6-4E64-AA5E-756F90274DA4}|ADM.ApiGateway\\ADM.ApiGateway.csproj|solutionrelative:adm.apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378CD3A3-AA4F-4D74-9E97-C96D1254DA93}|FileStorageService.API\\FileStorageService.API.csproj|d:\\app1\\adm.microservices\\filestorageservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{378CD3A3-AA4F-4D74-9E97-C96D1254DA93}|FileStorageService.API\\FileStorageService.API.csproj|solutionrelative:filestorageservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8411CE-BB27-4382-BF46-60483BD6A022}|AuthService.API\\AuthService.API.csproj|d:\\app1\\adm.microservices\\authservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B8411CE-BB27-4382-BF46-60483BD6A022}|AuthService.API\\AuthService.API.csproj|solutionrelative:authservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0F1C3C-330A-42A5-BFA3-3CFFDC26950C}|AdminConsoleService.API\\AdminConsoleService.API.csproj|d:\\app1\\adm.microservices\\adminconsoleservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DC0F1C3C-330A-42A5-BFA3-3CFFDC26950C}|AdminConsoleService.API\\AdminConsoleService.API.csproj|solutionrelative:adminconsoleservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\APP1\\ADM.Microservices\\AdminConsoleService.API\\Program.cs",
+              "RelativeDocumentMoniker": "AdminConsoleService.API\\Program.cs",
+              "ToolTip": "D:\\APP1\\ADM.Microservices\\AdminConsoleService.API\\Program.cs",
+              "RelativeToolTip": "AdminConsoleService.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T18:38:48.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\APP1\\ADM.Microservices\\FileStorageService.API\\Program.cs",
+              "RelativeDocumentMoniker": "FileStorageService.API\\Program.cs",
+              "ToolTip": "D:\\APP1\\ADM.Microservices\\FileStorageService.API\\Program.cs",
+              "RelativeToolTip": "FileStorageService.API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T18:38:04.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\APP1\\ADM.Microservices\\AuthService.API\\Program.cs",
+              "RelativeDocumentMoniker": "AuthService.API\\Program.cs",
+              "ToolTip": "D:\\APP1\\ADM.Microservices\\AuthService.API\\Program.cs",
+              "RelativeToolTip": "AuthService.API\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T18:37:28.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\APP1\\ADM.Microservices\\FileStorageService.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FileStorageService.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\APP1\\ADM.Microservices\\FileStorageService.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FileStorageService.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-01T18:29:26.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\APP1\\ADM.Microservices\\AuthService.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AuthService.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\APP1\\ADM.Microservices\\AuthService.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AuthService.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-01T18:29:09.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\APP1\\ADM.Microservices\\AdminConsoleService.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AdminConsoleService.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\APP1\\ADM.Microservices\\AdminConsoleService.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AdminConsoleService.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-01T18:28:41.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\APP1\\ADM.Microservices\\ADM.ApiGateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ADM.ApiGateway\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\APP1\\ADM.Microservices\\ADM.ApiGateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ADM.ApiGateway\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-01T18:27:33.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "D:\\APP1\\ADM.Microservices\\ADM.ApiGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "ADM.ApiGateway\\ocelot.json",
+              "ToolTip": "D:\\APP1\\ADM.Microservices\\ADM.ApiGateway\\ocelot.json",
+              "RelativeToolTip": "ADM.ApiGateway\\ocelot.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-01T18:21:59.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\APP1\\ADM.Microservices\\ADM.ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "ADM.ApiGateway\\Program.cs",
+              "ToolTip": "D:\\APP1\\ADM.Microservices\\ADM.ApiGateway\\Program.cs",
+              "RelativeToolTip": "ADM.ApiGateway\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T18:11:17.941Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
