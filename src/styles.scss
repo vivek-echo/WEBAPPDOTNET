@@ -1,0 +1,174 @@
+/* You can add global styles to this file, and also import other style files */
+/**======================================================================
+=========================================================================
+Template Name: berry - Most Complete Angular Admin Template
+Author: CodedThemes
+Support: https://codedthemes.support-hub.io/
+File: style.css
+=========================================================================
+=================================================================================== */
+
+// main framework
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/variables-dark';
+
+@import 'scss/settings/color-variables';
+@import 'scss/settings/theme-variables';
+@import 'scss/settings/bootstrap-variables.scss';
+
+@import 'scss/bootstrap/bootstrap.scss';
+
+@import 'node_modules/bootstrap/scss/utilities';
+@import 'node_modules/bootstrap/scss/utilities/api';
+
+@import 'scss/themes/generic.scss';
+@import 'scss/themes/general.scss';
+
+// Layouts
+@import 'scss/themes/layouts/layouts';
+
+// Components
+@import 'scss/themes/components/components';
+
+// pages
+@import 'scss/themes/pages/page.scss';
+
+@import 'scss/themes/customizer';
+@import 'scss/style-preset.scss';
+
+// fonts
+@import url('scss/fonts/berry/berry-icons.css'); /** custom font icons - berry **/
+@import 'scss/fonts/tabler-icons.min.css';
+@import 'scss/fonts/phosphor/duotone/style.css';
+
+
+/* ============================================================
+   SWEETALERT2 CUSTOM THEME – BERRY UI (MODERN + CLEAN)
+   ============================================================ */
+
+/* Main popup styling */
+.swal2-popup {
+  border-radius: 18px !important;
+  padding: 28px 26px !important;
+  background: #ffffff !important;
+  color: #1f1f2e !important;
+  box-shadow: 0 20px 55px rgba(0, 0, 0, 0.15) !important;
+  font-family: "Inter", system-ui, sans-serif !important;
+  animation: swalFadeIn 0.25s ease-out;
+}
+
+/* Title styling */
+.swal2-title {
+  margin-bottom: 8px !important;
+  font-size: 1.35rem !important;
+  font-weight: 600 !important;
+  color: #2d2d3a !important;
+  letter-spacing: -0.3px;
+}
+
+/* Text/body styling */
+.swal2-html-container {
+  margin-top: 6px !important;
+  font-size: 0.95rem !important;
+  color: #4c4c5a !important;
+}
+
+/* Icon styling */
+.swal2-icon {
+  margin-top: 6px !important;
+  margin-bottom: 12px !important;
+  transform: scale(0.85);
+}
+
+.swal2-icon.swal2-success {
+  border-color: #00c853 !important;
+  color: #00c853 !important;
+}
+
+.swal2-icon.swal2-error {
+  border-color: #e53935 !important;
+  color: #e53935 !important;
+}
+
+.swal2-icon.swal2-warning {
+  border-color: #fbc02d !important;
+  color: #fbc02d !important;
+}
+
+.swal2-icon.swal2-info {
+  border-color: #29b6f6 !important;
+  color: #29b6f6 !important;
+}
+
+.swal2-icon.swal2-question {
+  border-color: #7e57c2 !important;
+  color: #7e57c2 !important;
+}
+
+/* Buttons */
+.swal2-confirm,
+.swal2-cancel {
+  border-radius: 12px !important;
+  padding: 10px 22px !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.4px;
+  transition: all 0.2s ease !important;
+}
+
+/* Primary confirm button – purple Berry theme */
+.swal2-confirm {
+  background: linear-gradient(135deg, #7366ff, #8e7dff) !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: 0 8px 20px rgba(115, 102, 255, 0.4) !important;
+}
+
+.swal2-confirm:hover {
+  background: linear-gradient(135deg, #6654ff, #7b6bff) !important;
+  box-shadow: 0 12px 28px rgba(115, 102, 255, 0.5) !important;
+}
+
+/* Cancel button */
+.swal2-cancel {
+  background: #eef0f7 !important;
+  color: #43445a !important;
+  border: 1px solid #dadce7 !important;
+}
+
+.swal2-cancel:hover {
+  background: #e2e4ee !important;
+}
+
+/* Footer */
+.swal2-footer {
+  border-top: 1px solid #ececec !important;
+  color: #72738a !important;
+}
+
+/* Input fields inside Swal */
+.swal2-input {
+  border-radius: 10px !important;
+  border: 1px solid #d1d5db !important;
+  padding: 9px 14px !important;
+  background: #f9fafc !important;
+  font-size: 0.9rem !important;
+}
+
+/* Animations */
+@keyframes swalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Loader (when using preConfirm) */
+.swal2-loader {
+  border-color: #7366ff #7366ff transparent transparent !important;
+}
