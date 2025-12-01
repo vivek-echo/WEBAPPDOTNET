@@ -1,0 +1,198 @@
+/* Full page background – same feel as Berry content area */
+.auth-main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #f5f7fb; // light grey/blue like dashboard
+}
+
+/* Center wrapper */
+.auth-wrapper {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* White card, soft shadow like Berry cards */
+.login-card {
+  border: none;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 18px 40px rgba(145, 158, 171, 0.2);
+  animation: cardFadeIn 0.3s ease-out;
+}
+
+.login-card .card-body {
+  padding: 28px 28px 24px;
+}
+
+/* Logo – purple square pill with droplet */
+.logo-area {
+  .logo-circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #7366ff, #8e7dff);
+    box-shadow: 0 8px 18px rgba(115, 102, 255, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    i {
+      font-size: 1.6rem;
+      color: #ffffff;
+    }
+  }
+
+  .logo-title {
+    font-size: 0.75rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #7b8190;
+    font-weight: 600;
+  }
+
+  &:hover .logo-circle {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 22px rgba(115, 102, 255, 0.5);
+  }
+}
+
+/* Heading text – dark like dashboard text */
+.welcome-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.welcome-subtitle {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+/* Thin grey separator */
+.separator {
+  height: 1px;
+  background: #e5e7eb;
+}
+
+/* Form labels */
+.form-label {
+  margin-bottom: 4px;
+  font-size: 0.8rem;
+  color: #4b5563;
+}
+
+/* Inputs – white, rounded, purple focus (Berry style) */
+.custom-input-group {
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+
+  .input-group-text {
+    border: none;
+    background: transparent;
+    padding-inline: 12px;
+    color: #9ca3af;
+    display: flex;
+    align-items: center;
+
+    i {
+      font-size: 0.95rem;
+    }
+  }
+
+  .form-control {
+    border: none;
+    background: transparent;
+    color: #111827;
+    font-size: 0.9rem;
+    padding-inline: 0.75rem 1rem;
+
+    &::placeholder {
+      color: #9ca3af;
+    }
+
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+  }
+
+  &:focus-within {
+    border-color: #7366ff;
+    box-shadow: 0 0 0 2px rgba(115, 102, 255, 0.15);
+  }
+}
+
+/* Forgot password link */
+.forgot-link {
+  font-size: 0.8rem;
+  color: #7366ff;
+  text-decoration: none;
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: #4f46e5;
+    text-decoration: underline;
+  }
+}
+
+/* Primary button – same purple as Berry components */
+.btn-login {
+  border-radius: 999px;
+  border: none;
+  padding-block: 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background-image: linear-gradient(135deg, #7366ff, #8e7dff);
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  box-shadow: 0 12px 28px rgba(115, 102, 255, 0.4);
+  transition: transform 0.14s ease, box-shadow 0.14s ease, background-image 0.14s ease;
+
+  i {
+    font-size: 0.9rem;
+  }
+
+  &:hover {
+    transform: translateY(-1px);
+    background-image: linear-gradient(135deg, #6654ff, #7c6bff);
+    box-shadow: 0 16px 34px rgba(115, 102, 255, 0.45);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 8px 20px rgba(115, 102, 255, 0.35);
+  }
+}
+
+/* Subtle entrance animation */
+@keyframes cardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile tweaks */
+@media (max-width: 575.98px) {
+  .login-card .card-body {
+    padding: 24px 20px 20px;
+  }
+}
